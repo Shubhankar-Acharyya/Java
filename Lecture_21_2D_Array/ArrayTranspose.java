@@ -3,6 +3,20 @@ package Lecture_21_2D_Array;
 import java.util.Scanner;
 
 public class ArrayTranspose {
+    //In place tranpose can be safely done on square matrices only
+    static void TransposedInPlace(int[][] arr){
+        int row = arr.length;
+        int col = arr[0].length;
+
+        for(int i = 0;i<col;i++){
+            for(int j = i; j<row;j++){
+                int temp = arr[i][j];
+                arr[i][j] = arr[j][i];
+                arr[j][i] = temp;
+            }
+        }
+        print2DArray(arr);
+    }
     static void TransposedArray(int[][] arr){
         int row = arr.length;
         int col = arr[0].length;
@@ -46,6 +60,7 @@ public class ArrayTranspose {
         print2DArray(arr);
         
         System.out.println("Transposed Matrix is: ");
+        //TransposedInPlace(arr);
         TransposedArray(arr);
         sc.close();
     }
