@@ -11,16 +11,16 @@ public class ArrayTranspose {
         for(int i = 0;i<row;i++){
             for(int j = 0; j<col;j++){
                 if(i==j){
-                    transposed[i][j] = arr[i][j];
+                    transposed[j][i] = arr[i][j];
                 }
                 else{
-                    transposed[i][j]=arr[j][i];
+                    transposed[j][i] = arr[i][j];
                 }
             }
         }
         print2DArray(transposed);
     }
-        
+
     static void print2DArray(int[][] arr){
         for(int i = 0; i< arr.length; i++){ //row
             for(int j = 0; j< arr[i].length;j++){//colummn
