@@ -9,5 +9,7 @@ public class TakingInputAreaOfCircle {
         double pi = 3.1415, area;
         area = pi*rad*rad;
         System.out.println("The area of circle is :"+area);
+
+        sc.close();
     }
 }

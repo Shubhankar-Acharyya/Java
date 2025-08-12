@@ -19,5 +19,6 @@ public class moduloOperation {
         //Note: a % -b and a % b are same thing.
 
         System.out.println("The remainder when "+a+" is divided by "+b+" is "+r);
+        sc.close();
     }
 }

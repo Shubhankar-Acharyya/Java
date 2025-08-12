@@ -11,6 +11,7 @@ public class charDataType {
 
         int x =(int)ch; //TypeCast
         System.out.println(x);
+        sc.close();
 
     //ASCII value of a = 97, z = 122 ; A = 65 , Z = 90
 

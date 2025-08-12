@@ -12,5 +12,7 @@ public class sumOfTwoNumInp {
 
         System.out.print("Output is : ");
         System.out.println(x+y);
+
+        sc.close();
     }
 }
