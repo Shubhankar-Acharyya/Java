@@ -36,6 +36,14 @@ public class SortArrayList {
         // Collections.reverse(list);
         // System.out.println(list);
 
+        ArrayList<String> l1 = new ArrayList<>();
+        l1.add("Welcome");
+        l1.add("To");
+        l1.add("StudentVerse");
+        System.out.println(l1);
+        System.out.println("String after sort:" );
+        Collections.sort(l1);   //Lexico-graph used for sorting
+        System.out.println(l1);
         sc.close();
     }
 }
