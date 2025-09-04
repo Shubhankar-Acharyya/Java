@@ -1,8 +1,7 @@
 package Lecture_17_Arrays4;
 
-import java.nio.channels.Pipe.SourceChannel;
 import java.util.Arrays;
-import java.util.Scanner;
+
 
 
 public class SwapInt {
