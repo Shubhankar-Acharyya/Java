@@ -44,5 +44,6 @@ public class ElementsGreaterThen {
             }
         }
         System.out.println("No of digits greater than "+x+" is: "+count);
+        sc.close();
     }
 }

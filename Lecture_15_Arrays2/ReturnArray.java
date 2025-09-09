@@ -20,6 +20,6 @@ public class ReturnArray {
         int[] ans = {arr[0],arr[arr.length-1]};
         System.out.println(Arrays.toString(ans));
 
-        
+        sc.close();
         }
     }

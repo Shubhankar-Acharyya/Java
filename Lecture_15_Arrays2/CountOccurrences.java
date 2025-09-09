@@ -8,6 +8,7 @@ public class CountOccurrences {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the element :" );
         int n = sc.nextInt();
+        sc.close();
         int[] arr = {5,6,5,1,5};
         int count = 0;
         int element = n;

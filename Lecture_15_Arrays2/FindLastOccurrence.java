@@ -44,5 +44,6 @@ public class FindLastOccurrence {
             }
         }
         System.out.println(lastOccurrence);
+        sc.close();
     }
 }

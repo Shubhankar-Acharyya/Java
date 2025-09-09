@@ -39,5 +39,6 @@ public class SortedOrNot {
         else{
             System.out.println("Not Sorted");
         }
+        sc.close();
     }
 }
