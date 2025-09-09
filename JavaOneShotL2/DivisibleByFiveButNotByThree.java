@@ -14,5 +14,6 @@ public class DivisibleByFiveButNotByThree {
         else{
             System.out.println("Divisible By both 5 and 3");
         }
+        sc.close();
     }
 }

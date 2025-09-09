@@ -8,6 +8,8 @@ public class DivisibleBy {
         System.out.println("Enter a positive integer: ");
         int n = sc.nextInt();
 
+        sc.close();
+
         if(n%5 == 0 && n%3 == 0){
             System.out.println("The number is divisible by 5 and 3.");
         }

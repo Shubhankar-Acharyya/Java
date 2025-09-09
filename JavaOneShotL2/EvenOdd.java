@@ -8,6 +8,7 @@ public class EvenOdd {
 
         System.out.print("Enter a number : ");
         int n = sc.nextInt();
+        sc.close();
 
         if(n%2 == 0){
             //code 4%2 = 0(even)

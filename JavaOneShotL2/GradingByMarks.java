@@ -8,6 +8,8 @@ public class GradingByMarks {
         System.out.println("Enter percentage : ");
         int n = sc.nextInt(); //n -> percentage
 
+        sc.close();
+
         if(n>90){
             System.out.println("Excellent."); //If if gets executed then other than that no other if else statement would run.
         }

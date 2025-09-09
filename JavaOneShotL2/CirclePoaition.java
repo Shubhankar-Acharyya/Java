@@ -29,5 +29,6 @@ public class CirclePoaition {
         else{
             System.out.println("Point lies on the circle.");
         }
+        sc.close();
     }
 }

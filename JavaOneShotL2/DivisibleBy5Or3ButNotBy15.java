@@ -7,6 +7,7 @@ public class DivisibleBy5Or3ButNotBy15 {
 
     System.out.println("Enter a positive integer: ");
     int n = sc.nextInt();
+    sc.close();
     
     if(n%5 == 0 || n%3 == 0){
         if(n%15 != 0){
