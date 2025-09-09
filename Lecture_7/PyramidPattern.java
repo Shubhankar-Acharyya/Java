@@ -8,6 +8,8 @@ public class PyramidPattern {
         System.out.print("Enter the no of rows: ");
         int r = sc.nextInt();
 
+        sc.close();
+
         for(int i = 1; i <= r ; i++){
             
             //print r-i spaces

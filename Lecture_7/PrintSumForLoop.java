@@ -7,6 +7,7 @@ public class PrintSumForLoop {
 
         System.out.println("Enter the num to get sum upto :");
         int n = sc.nextInt();
+        sc.close();
 
         int sum = 0;
 

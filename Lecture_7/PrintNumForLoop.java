@@ -7,6 +7,7 @@ public class PrintNumForLoop {
 
         System.out.println("Enter the total numbers to print: ");
         int n = sc.nextInt();
+        sc.close();
 
         for(int num = 1; num <= n;num++){
             System.out.println(num);

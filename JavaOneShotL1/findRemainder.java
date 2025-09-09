@@ -15,5 +15,6 @@ public class findRemainder {
         r = a - (b*q);  //r is remainder
 
         System.out.println("The remainder when "+a+" is divided by "+b+" is "+r);
+        sc.close();
     }
 }

@@ -7,6 +7,7 @@ public class NumericTriangular {
 
         System.out.print("Enter rows: " );
         int r = sc.nextInt();
+        sc.close();
 
         for(int i = 1; i <= r; i++){
             for(int j = 1; j <= i;j++){

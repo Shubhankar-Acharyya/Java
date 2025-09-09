@@ -8,6 +8,8 @@ public class PrintNumbersInDescending {
         System.out.println("Enter the num to print in descending order: ");
         int n = sc.nextInt();
 
+        sc.close();
+
         for(int num = n; num >= 1 ; num--){
             System.out.println(num);
         }
