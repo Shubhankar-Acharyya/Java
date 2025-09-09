@@ -9,6 +9,7 @@ class SumArrays{
 
         System.out.print("Enter a number to search: ");
         int n = sc.nextInt();
+        sc.close();
         boolean found = false;
         for(int i = 0; i<arr.length;i++){
             if(n == arr[i]){

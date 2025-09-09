@@ -17,6 +17,6 @@ public class RectPattern {
             }
             System.out.println("\n");
         }
-
+        sc.close();
     }
 }
