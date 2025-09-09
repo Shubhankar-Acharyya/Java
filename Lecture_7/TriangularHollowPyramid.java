@@ -22,6 +22,7 @@ public class TriangularHollowPyramid {
             //for(int l = )
 
             System.out.println();
+            sc.close();
         }
     }
 }

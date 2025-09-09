@@ -17,5 +17,6 @@ public class SumOfNumbersInADigit {
             n = n / 10;
         }
         System.out.println("Sum of digits in " +original +" = " +sum);
+        sc.close();
     }
 }

@@ -18,5 +18,6 @@ public class SumOfSeries {
             }
         }
         System.out.println(ans);
+        sc.close();
     }
 }

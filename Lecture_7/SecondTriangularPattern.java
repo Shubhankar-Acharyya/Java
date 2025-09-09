@@ -15,5 +15,6 @@ public class SecondTriangularPattern {
             }
             System.out.println();
         }
+        sc.close();
     }
 }
