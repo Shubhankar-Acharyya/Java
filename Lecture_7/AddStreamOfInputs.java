@@ -21,5 +21,6 @@ public class AddStreamOfInputs {
         //     num = sc.nextInt();
         // }
         System.out.println(sum);
+        sc.close();
     }
 }
