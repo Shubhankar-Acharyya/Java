@@ -41,5 +41,6 @@ public class CountSumTriplets {
         }
         // int result = (int)totalCount/2;
         System.out.println(totalCount);
+        sc.close();
     }
 }

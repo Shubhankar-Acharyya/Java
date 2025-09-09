@@ -18,5 +18,6 @@ public class AgeGrouping {
         else{
             System.out.println("Adult");
         }
+        sc.close();
     }
 }

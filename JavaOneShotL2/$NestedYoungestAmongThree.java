@@ -25,5 +25,6 @@ public class $NestedYoungestAmongThree {
         else{
             System.out.println("Shyam is youngest.");
         }
+        sc.close();
     }
 }

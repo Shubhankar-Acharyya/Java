@@ -23,5 +23,6 @@ public class RectAreaGreaterthanPerimeter {
         else{
             System.out.println("Area is less than perimeter.");
         }
+        sc.close();
     }
 }

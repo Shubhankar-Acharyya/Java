@@ -27,5 +27,7 @@ public class takingInput {
         System.out.print("Enter your full name: ");
         String full_name = sc.nextLine();
         System.out.println("Full Name is :" + full_name);
+
+        sc.close();
     }
 }

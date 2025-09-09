@@ -7,6 +7,7 @@ public class TwoDigitNum {
 
         System.out.print("Enter an Integer: ");
         int n = sc.nextInt();
+        sc.close();
 
         if(n>9 && n<100){ //&& is Logical AND
             System.out.println("This is a two digit number.");

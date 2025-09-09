@@ -7,6 +7,7 @@ public class ThreeDigitNum {
 
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
+        sc.close();
 
         //&& is when both the conditions should meet!
         if(n>99 && n<1000){

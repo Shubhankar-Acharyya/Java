@@ -21,6 +21,6 @@ public class profitLoss {
             System.out.println("Sorry, you have incurred loss.");
             System.out.println("The amount of loss is : "+pl);
         }
-
+        sc.close();
     }
 }

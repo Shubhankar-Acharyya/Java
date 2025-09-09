@@ -14,6 +14,8 @@ public class TriangleOrNot {
         System.out.print("Enter the value of side c: ");
         int c = sc.nextInt();
 
+        sc.close();
+
         if(a+b > c && b+c > a && c+a > b){
             System.out.println("Triangle.");
         }

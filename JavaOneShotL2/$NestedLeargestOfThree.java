@@ -13,6 +13,7 @@ public class $NestedLeargestOfThree {
         
         System.out.print("Enter third Number(C): ");
         int c = sc.nextInt();
+        sc.close();
 
 
         if(a>b){

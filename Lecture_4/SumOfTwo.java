@@ -14,5 +14,6 @@ public class SumOfTwo {
         int num = num_1 + num_2;
 
         System.out.println("Your added number is :"+num);
+        sc.close();
     }
 }

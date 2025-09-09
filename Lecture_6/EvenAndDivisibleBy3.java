@@ -23,5 +23,6 @@ public class EvenAndDivisibleBy3 {
         if(n%2 == 0 && n%3 == 0){
             System.out.println("The value both even and divisible by 3 is :" +n);
         }
+        sc.close();
     }
 }

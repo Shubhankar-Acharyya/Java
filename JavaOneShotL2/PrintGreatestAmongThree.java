@@ -23,5 +23,6 @@ public class PrintGreatestAmongThree {
         else{
             System.out.println("The greatest number is : "+c);
         }
-        }
+        sc.close();
+    }
 }

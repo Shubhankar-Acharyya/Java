@@ -29,5 +29,6 @@ public class Main {
 
         System.out.println(Math.ceil(5.3));
         System.out.println(Math.ceil(5.8));
+        sc.close();
     }
 }

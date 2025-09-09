@@ -34,5 +34,6 @@ public class SecondLargest {
             }
         }
         System.out.println(secMax);
+        sc.close();
     }
 }

@@ -17,5 +17,6 @@ public class RectangleSquareOrNot {
         else{
             System.out.println("The rectangle is not a square.");
         }
+        sc.close();
     }
 }

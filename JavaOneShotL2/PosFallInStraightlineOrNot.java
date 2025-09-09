@@ -33,7 +33,6 @@ public class PosFallInStraightlineOrNot {
         else{
             System.out.println("Does Not Create a Straight Line.");
         }
-
-
+        sc.close();
     }
 }

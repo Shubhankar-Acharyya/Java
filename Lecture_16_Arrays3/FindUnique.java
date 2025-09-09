@@ -39,5 +39,6 @@ public class FindUnique {
         }
 
         System.out.println(ans);
+        sc.close();
     }
 }

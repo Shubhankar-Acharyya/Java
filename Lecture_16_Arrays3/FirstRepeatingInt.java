@@ -32,5 +32,6 @@ public class FirstRepeatingInt {
             }
         }
         System.out.println(rep);
+        sc.close();
     }
 }

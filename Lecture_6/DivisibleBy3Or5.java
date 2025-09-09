@@ -11,5 +11,6 @@ public class DivisibleBy3Or5 {
         if(n%3 == 0 || n%5 == 0){
             System.out.println("value is : "+n);
         }
+        sc.close();
     }
 }

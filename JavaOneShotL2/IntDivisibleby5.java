@@ -17,5 +17,6 @@ public class IntDivisibleby5 {
             System.out.println("The no is not divisible by 5.");
             System.out.println("Good evening.");
         }
+        sc.close();
     }
 }

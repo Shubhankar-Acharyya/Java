@@ -22,5 +22,6 @@ public class NestedAgeGrouping {
         else{
             System.out.println("Adult");
         }
+        sc.close();
     }
 }

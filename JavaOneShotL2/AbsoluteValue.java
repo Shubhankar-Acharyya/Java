@@ -16,5 +16,6 @@ public class AbsoluteValue {
             int value = n*(-1); // same as n = n*(-1);
             System.out.println("Your absolute value will be :"+value);
         }
+        sc.close();
     }
 }

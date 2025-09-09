@@ -9,5 +9,6 @@ public class ReadChar {
         System.out.println("Enter a character: ");
         char ch = sc.next().charAt(0);
         System.out.println("Character is :"+ch);
+        sc.close();
     }
 }
