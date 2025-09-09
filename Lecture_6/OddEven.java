@@ -7,6 +7,7 @@ public class OddEven {
 
         System.out.println("Enter a number: ");
         int n = sc.nextInt();
+        sc.close();
 
         // if(n%2==0){
         //     System.out.println("Even Number");
