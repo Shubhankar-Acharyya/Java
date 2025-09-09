@@ -8,6 +8,7 @@ public class BinaryToDecimal {
 
         System.out.println("Enter a Binary Number :");
         int n = sc.nextInt();
+        sc.close();
 
         int ans = 0;    //decimal no converted
         int pow = 1;    //power in the sense 2^0 = 1;

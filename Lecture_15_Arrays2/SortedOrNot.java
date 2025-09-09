@@ -15,6 +15,7 @@ public class SortedOrNot {
         for(int i = 0;i<n;i++){
             arr[i] = sc.nextInt();
         }
+        sc.close();
 
         boolean flag = false;
 
@@ -39,6 +40,5 @@ public class SortedOrNot {
         else{
             System.out.println("Not Sorted");
         }
-        sc.close();
     }
 }

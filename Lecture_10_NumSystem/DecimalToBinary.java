@@ -8,6 +8,8 @@ public class DecimalToBinary {
         System.out.println("Enter a number: ");
         int n = sc.nextInt();
 
+        sc.close();
+
         int Binary = 0;
         int Multiplier = 1;
 

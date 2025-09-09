@@ -14,6 +14,8 @@ public class YoungestAmongThree {
         System.out.print("Enter the age of Ajay: ");
         int c = sc.nextInt();
 
+        sc.close();
+
         if(a<b && a<c){
             System.out.println("Ram is youngest.");
         }
