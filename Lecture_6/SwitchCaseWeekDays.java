@@ -8,6 +8,8 @@ public class SwitchCaseWeekDays {
         System.out.println("Enter the day:");
         int n = sc.nextInt();
 
+        sc.close();
+
         switch (n){
             case 1:
                 System.out.println("MONDAY");
