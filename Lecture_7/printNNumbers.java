@@ -6,6 +6,7 @@ public class printNNumbers {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter The count of Total Numbers to print: ");
         int n = sc.nextInt();
+        sc.close();
 
         int num = 1,sum = 0;
 

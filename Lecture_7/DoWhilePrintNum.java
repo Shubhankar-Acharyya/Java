@@ -8,6 +8,8 @@ public class DoWhilePrintNum {
         System.out.println("Enter the number to print till: ");
         int n = sc.nextInt();
 
+        sc.close();
+
         int num = 1;
 
         do{

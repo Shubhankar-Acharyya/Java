@@ -8,6 +8,7 @@ public class CountOfNum {
 
         System.out.println("Enter a number: ");
         int n = sc.nextInt();
+        sc.close();
         int digit = 0;
 
         for(; n>0; digit++){    //while(n>0){ n = n/10; digit++}

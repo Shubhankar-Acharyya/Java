@@ -7,6 +7,7 @@ public class NumericRectPattern {
 
         System.out.print("Enter n: ");
         int n = sc.nextInt();
+        sc.close();
 
         for(int i = 1; i <= n;i++){
             for(int j = i; j <= n;j++){

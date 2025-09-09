@@ -11,6 +11,8 @@ public class FindPowerOfANum {
         System.out.print("Enter power: ");
         int b = sc.nextInt();
 
+        sc.close();
+
         int POW = 1;
 
         for(int i=1;i<=b;i++){

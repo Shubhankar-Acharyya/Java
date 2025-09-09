@@ -8,6 +8,7 @@ public class NumericPyramid {
 
         System.out.print("Enter no of rows :");
         int r = sc.nextInt();
+        sc.close();
 
         for(int i = 1; i <= r ;i++){
             // j is the spaces to print which is r-i
