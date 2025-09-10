@@ -12,6 +12,8 @@ public class XOrYOrOrigin {
         System.out.println("Enter Y:");
         int y = sc.nextInt();
 
+        sc.close();
+
         if(x==0 && y==0){
             System.out.println("The point is at origin.");
         }
