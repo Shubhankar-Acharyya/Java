@@ -12,7 +12,7 @@ public class SumOfNTillN {
             return -n + Sum(n-1);
         }
         else{
-            return n+Sum(n-1);
+            return n + Sum(n-1);
         }
     }
     public static void main(String[] args) {
