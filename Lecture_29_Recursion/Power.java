@@ -6,7 +6,7 @@ public class Power{
             return 1;
         return p*OGpow(p, q-1);
     }
-    static int pow(int p, int q){   //Better complexity
+    static int pow(int p, int q){   //Better complexity --> O(log q)
         if(q==0)
             return 1;
         int smallPow = pow(p, q/2);
