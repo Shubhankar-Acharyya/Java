@@ -31,7 +31,10 @@ public class GCD {
         int m = 15;
         int n = 6;
 
-        System.out.println(GC(m, n));
-        System.out.println(GCDEuclid(m, n));
+        System.out.println("GCD is: "+GC(m, n));
+        int GCD = GCDEuclid(m, n);
+        System.out.println("GCD is: "+GCDEuclid(m, n));
+        int LCM = (m*n)/GCD;
+        System.out.println("LCM is: "+LCM);
     }
 }
