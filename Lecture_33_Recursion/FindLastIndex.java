@@ -6,8 +6,9 @@ public class FindLastIndex {
         if(idx==arr.length){
             return -1;
         }
-        //Recursive Work and Self Work
+        //Recursive Work
         int smallAns = getIndex(arr, idx+1, target);
+        //Self Work
         if (smallAns != -1) {
             return smallAns;
         } else {
