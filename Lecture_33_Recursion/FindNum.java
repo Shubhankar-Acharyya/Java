@@ -16,6 +16,10 @@ public class FindNum {
     public static void main(String[] args) {
         int[] arr = {1,2,8,7,6,5};
         int target = 5;
-        System.out.println(find(arr, target, 0));
+        if(find(arr, target, 0) == true){
+            System.out.println("Yes it is present.");
+        }
+        else
+            System.out.println("Not present.");
     }
 }
