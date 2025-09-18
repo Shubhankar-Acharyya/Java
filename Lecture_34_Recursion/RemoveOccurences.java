@@ -8,6 +8,8 @@ public class RemoveOccurences {
         }
         // Recursive Case
         String smallAns = get(str, target, idx + 1);
+
+        //Self Work
         if (str.charAt(idx) != target) {
             return str.charAt(idx) + smallAns;
         } else {
@@ -15,7 +17,7 @@ public class RemoveOccurences {
         }
     }
     public static void main(String[] args) {
-        String str = "abcax";
+        String str = "dbacx abrakadabra";
         char target = 'a';
         System.out.println(get(str, target,0));
     }
