@@ -5,13 +5,18 @@ public class Main {
         int n = a.length;
 
         for(int i = 0; i < n-1; i++){
+            boolean flag = false; //Has any swap() happened
             for(int j = 0; j < n-i-1; j++){
                 //If curr > next element : swap()
                 if(a[j]>a[j+1]){
                     int temp = a[j];
                     a[j] = a[j+1];
                     a[j+1] = temp;
+                    flag = true;
                 }
+            }
+            if(flag==false){
+                return;
             }
         }
     }
