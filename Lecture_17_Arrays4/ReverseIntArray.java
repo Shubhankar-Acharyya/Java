@@ -37,9 +37,6 @@ public class ReverseIntArray {
 
     }
     public static void main(String[] args) {
-        //Input taking of array
-        int a = 9;
-        int b = 3;
         int[] arr = {1,2,3,4,5};
 
         //int[] ans = reverseArray(arr);

@@ -1,8 +1,5 @@
 package Lecture_17_Arrays4;
 
-import java.util.Arrays;
-
-
 
 public class SwapInt {
     //Normal TempSwap
@@ -35,11 +32,8 @@ public class SwapInt {
         System.out.println("b: "+b);
         }
     public static void main(String[] args) {
-        //Input taking of array
         int a = 9;
         int b = 3;
-        int[] arr = {1,2,3,4,5};
         swap(a,b);
-        
     }
 }
